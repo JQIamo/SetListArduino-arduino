@@ -344,3 +344,4 @@ of the hardware should be on the [JQI wiki](https://jqi-wiki.physics.umd.edu).
 Bugs to fix...
 
 * identical "ramp" behavior on consecutive lines don't get triggered
+* Two consecutive ramp lines (eg, `linearSweep`) for some reason don't work -- ie, the first ramp executes fine, the second ramp goes to the final frequency. Interleaving with a short (>= 200us, although test!!) `detuning` line should be a temporary workaround
