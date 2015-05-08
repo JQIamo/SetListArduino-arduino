@@ -338,3 +338,9 @@ of the hardware should be on the [JQI wiki](https://jqi-wiki.physics.umd.edu).
   * Again, could output single voltage or interpolated sweep. However, the intention here is to use these for analog channels that don't need updating during a cycle.
 
 
+
+## Known limitations
+
+Bugs to fix...
+
+* identical "ramp" behavior on consecutive lines don't get triggered
